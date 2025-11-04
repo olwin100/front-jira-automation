@@ -1,4 +1,4 @@
-# rv-jira-automations
+# FRONT-jira-automations
 
 Automation scripts using Playwright for Red Ventures Jira.
 
