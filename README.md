@@ -2,6 +2,11 @@
 
 Automation scripts using Playwright for Red Ventures Jira.
 
+
+# watch the video
+https://github.com/user-attachments/assets/3134bf09-767a-4f3f-b917-d0ae752da733
+
+
 ## Setup
 
 1. Install dependencies:
