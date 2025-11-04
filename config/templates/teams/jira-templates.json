@@ -1,0 +1,65 @@
+{
+  "templates": {
+    "BE-RESI": {
+      "workType": "Back-End Engineering",
+      "components": ["Resi Cart"],
+      "categoryReason": "CATEGORY 1 - Copy, color, image modifications",
+      "riskAssessmentLevel": "MED",
+      "typeOfRequest": "Planned",
+      "taskClassification": "Tech Debt",
+      "summaryPrefix": "BE | RESI |",
+      "descriptionForPartner": "",
+      "storyPoints": "",
+      "keyStakeholder": ""
+    },
+    "BE-MLP": {
+      "workType": "Back-End Engineering",
+      "components": ["MLP"],
+      "categoryReason": "CATEGORY 1 - Copy, color, image modifications",
+      "riskAssessmentLevel": "MED",
+      "typeOfRequest": "Planned",
+      "taskClassification": "Tech Debt",
+      "summaryPrefix": "BE | MLP |",
+      "descriptionForPartner": "",
+      "storyPoints": "",
+      "keyStakeholder": ""
+    },
+    "BE-CART": {
+      "workType": "Back-End Engineering",
+      "components": ["Resi Cart"],
+      "categoryReason": "CATEGORY 1 - Copy, color, image modifications",
+      "riskAssessmentLevel": "MED",
+      "typeOfRequest": "Planned",
+      "taskClassification": "Tech Debt",
+      "summaryPrefix": "BE | CART |",
+      "descriptionForPartner": "",
+      "storyPoints": "",
+      "keyStakeholder": ""
+    },
+    "BE-SMB": {
+      "workType": "Back-End Engineering",
+      "components": ["SMB"],
+      "categoryReason": "CATEGORY 1 - Copy, color, image modifications",
+      "riskAssessmentLevel": "MED",
+      "typeOfRequest": "Planned",
+      "taskClassification": "Tech Debt",
+      "summaryPrefix": "BE | SMB |",
+      "descriptionForPartner": "",
+      "storyPoints": "",
+      "keyStakeholder": ""
+    },
+    "BE-NGC": {
+      "workType": "Back-End Engineering",
+      "components": ["NGC"],
+      "categoryReason": "CATEGORY 1 - Copy, color, image modifications",
+      "riskAssessmentLevel": "MED",
+      "typeOfRequest": "Planned",
+      "taskClassification": "Tech Debt",
+      "summaryPrefix": "BE | NGC |",
+      "descriptionForPartner": "",
+      "storyPoints": "",
+      "keyStakeholder": ""
+    }
+  }
+}
+

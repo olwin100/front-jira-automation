@@ -14,7 +14,9 @@ playwright/.cache/
 
 # Persistence files
 persistence/
-*.json
+
+# Personal templates (user-specific, not shared)
+config/templates/personal/
 
 # Screenshots
 screenshots/

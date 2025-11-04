@@ -1,0 +1,63 @@
+{
+  "workTypes": [
+    "Epic",
+    "Bug",
+    "Halp",
+    "Front-End Engineering",
+    "Back-End Engineering",
+    "Data Engineering",
+    "QA Engineering",
+    "Initiative",
+    "Creative Task",
+    "Data Science"
+  ],
+  "components": [
+    "Abandoned Board",
+    "Compass",
+    "DBX Migration",
+    "Fast Follow",
+    "Fuel Data",
+    "MLP",
+    "NGC",
+    "Paid Media",
+    "QAE",
+    "RD Tech",
+    "Resi Cart",
+    "SMB"
+  ],
+  "categoryReasons": [
+    "CATEGORY 1 - Assets added or modified that don't impact base site code",
+    "CATEGORY 1 - Changes already behind feature flags",
+    "CATEGORY 1 - Copy, color, image modifications",
+    "CATEGORY 1 - Eventing Modifications",
+    "CATEGORY 1 - INFR or FRIN User Interface changes",
+    "CATEGORY 1 - Maintenance bug updating user experience",
+    "CATEGORY 1 - Production bug blocking fiber units or causing reporting error",
+    "CATEGORY 1 - Unit Test and Monitoring changes",
+    "CATEGORY 2 - Addition of New Dependencies into Build Process",
+    "CATEGORY 2 - API Refactoring or Logic changes",
+    "CATEGORY 2 - App Gateway/Infrastructure change",
+    "CATEGORY 2 - FRDC UI changes outside of CAT-1 changes",
+    "CATEGORY 2 - Impact of new feature flags/unreleased features",
+    "CATEGORY 2 - Organization-wide offer changes",
+    "Needs Categorized After Scoping",
+    "No Code Release"
+  ],
+  "riskAssessmentLevels": [
+    "LOW",
+    "MED",
+    "HIGH"
+  ],
+  "typeOfRequest": [
+    "Planned",
+    "Unplanned"
+  ],
+  "taskClassifications": [
+    "Iterative Test",
+    "Partner Request",
+    "Tech Debt",
+    "Offer Change",
+    "Bug/Outage",
+    "Tech"
+  ]
+}

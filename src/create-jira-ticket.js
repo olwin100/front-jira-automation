@@ -55,19 +55,35 @@ function saveOptions(options) {
 }
 
 /**
- * Load templates from JSON file
+ * Load templates from JSON files in teams and personal folders
+ * Personal templates override teams templates if there's a name conflict
  */
 function loadTemplates() {
+  const allTemplates = {};
+  
+  // Load team templates first
   try {
-    const templatesPath = path.join(process.cwd(), "config", "jira-templates.json");
-    if (fs.existsSync(templatesPath)) {
-      const templates = JSON.parse(fs.readFileSync(templatesPath, "utf8"));
-      return templates.templates || {};
+    const teamsPath = path.join(process.cwd(), "config", "templates", "teams", "jira-templates.json");
+    if (fs.existsSync(teamsPath)) {
+      const teamsTemplates = JSON.parse(fs.readFileSync(teamsPath, "utf8"));
+      Object.assign(allTemplates, teamsTemplates.templates || {});
     }
   } catch (error) {
-    console.warn("⚠️ Could not load templates:", error.message);
+    console.warn("⚠️ Could not load team templates:", error.message);
   }
-  return {};
+  
+  // Load personal templates (override teams templates)
+  try {
+    const personalPath = path.join(process.cwd(), "config", "templates", "personal", "jira-templates.json");
+    if (fs.existsSync(personalPath)) {
+      const personalTemplates = JSON.parse(fs.readFileSync(personalPath, "utf8"));
+      Object.assign(allTemplates, personalTemplates.templates || {});
+    }
+  } catch (error) {
+    console.warn("⚠️ Could not load personal templates:", error.message);
+  }
+  
+  return allTemplates;
 }
 
 /**
